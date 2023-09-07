@@ -51,7 +51,7 @@ export default function about() {
     </div>
 
 <main>
-    <div id="carouselExampleDark" className="carousel carousel-dark slide">
+<div id="carouselExampleDark" className="carousel carousel-dark slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to={1} aria-label="Slide 2" />
@@ -59,19 +59,19 @@ export default function about() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
+      <img src="/slider(1).jpg" className="d-block w-100" alt="slider(1)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item" data-bs-interval={2000}>
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
+      <img src="/slider(2).jpg" className="d-block w-100" alt="slider(2)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item">
-      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
+      <img src="/slider(3).jpg" className="d-block w-100" alt="slider(3)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>

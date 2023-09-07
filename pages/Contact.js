@@ -54,7 +54,7 @@ export default function Contact() {
     <h2 className="pb-2 border-bottom">ช่องทางการติดต่อ</h2>
     <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
       <div className="col d-flex flex-column align-items-start gap-2">
-      <img src="DSC_0004_1.jpg" width={445} height={550} />
+      <img src="PRO" width={445} height={550} />
       </div>
       <div className="col">
         <div className="row row-cols-1 row-cols-sm-2 g-4">

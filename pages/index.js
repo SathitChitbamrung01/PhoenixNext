@@ -26,7 +26,7 @@ export default function index() {
           <Link className="nav-link " href=".">Home     <i class="bi bi-house-heart"></i> </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="about_us">About us   <i class="bi bi-file-earmark-person"></i></Link>
+          <Link className="nav-link" href="about">About us   <i class="bi bi-file-earmark-person"></i></Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,19 +60,19 @@ export default function index() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="slider(1)" />
+      <img src="/slider(1).jpg" className="d-block w-100" alt="slider(1)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item" data-bs-interval={2000}>
-      <img src="/LOL(2).jpg" className="d-block w-100" alt="slider(2)" />
+      <img src="/slider(2).jpg" className="d-block w-100" alt="slider(2)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item">
-      <img src="/LOL(5).jpg" className="d-block w-100" alt="slider(3)" />
+      <img src="/slider(3).jpg" className="d-block w-100" alt="slider(3)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
@@ -93,17 +93,17 @@ export default function index() {
 <div className="container marketing">
   <div className="row">
     <div className="col-lg-4">
-      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo1.jpg'></img>
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='LOGO(1).png'></img>
       <h2 className="fw-normal">Phoenix Next</h2>
       <p><Link className="btn btn-secondary" href="https://www.phoenixnext.com/">View details »</Link></p>
     </div>
     <div className="col-lg-4">
-      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo2.jpg'></img>      
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='LOGO(2).png'></img>      
       <h2 className="fw-normal">Luckpim</h2>
       <p><Link className="btn btn-secondary" href="https://www.facebook.com/Luckpim/?locale=th_TH/">View details »</Link></p>
     </div>
     <div className="col-lg-4">
-      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='logo3.jpg'></img>  
+      <img className='bd-placeholder-img rounded-circle' width={140} height={140} src='LOGO(3).png'></img>  
       <h2 className="fw-normal">first page pro</h2>
       <p><Link className="btn btn-secondary" href="http://www.firstpagepro.com/">View details »</Link></p>
     </div>
@@ -115,7 +115,7 @@ export default function index() {
       <p className="lead">กลับมาเจออีกครั้งกับกิจกรรมประจำเดือน เตรียมพบกับลิขสิทธิ์ใหม่จากสำนักพิมพ์ phoenix ประจำเดือนกรกฎาคม 2023 ตั้งแต่วันพรุ่งนี้เป็นต้นไปจ้า</p>
     </div>
     <div className="col-md-5">
-      <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO01.jpg'></img>
+      <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='Book(1).jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
@@ -126,7 +126,7 @@ export default function index() {
       <p className='lead'>" วัดป่วนชวนมารัก" เล่ม 1-4 วางจำหน่ายแล้ววันนี้บนร้านค้าออนไลน์และร้านหนังสือทั่วไป</p>
     </div>
     <div className="col-md-5 order-md-1">
-    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO02.jpg'></img>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='Book(2).jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
@@ -139,7 +139,7 @@ export default function index() {
       <p className="lead">💵 เล่มละ 120 บาท </p>
     </div>
     <div className="col-md-5">
-    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='SO03 .jpg'></img>
+    <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width={500} height={500} src='Book(3).jpg'></img>
     </div>
   </div>
   <hr className="featurette-divider" />
