@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image';
+import Image from 'next/image'
 import Script from 'next/script';
 import Link from 'next/link';
 import { useSession, signIn, signOut } from "next-auth/react"
@@ -14,43 +14,41 @@ export default function index() {
 
     <div>
     <header>
-  <nav className="navbar navbar-expand-lg bg-#e3f2fd;">
+<nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">PhoenixNext</a>
+    <a className="navbar-brand">Phoenix Next</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" href=".">หน้าแรก</Link>
+          <Link className="nav-link " href=".">Home     <i class="bi bi-house-heart"></i> </Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" href="/about">เกี่ยวกับเรา</Link>
+          <Link className="nav-link" href="about_us">About us   <i class="bi bi-file-earmark-person"></i></Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            บริการของเรา
+            Service
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><Link className="dropdown-item" href="song">Song   <i class="bi bi-file-music"></i></Link></li>
+            <li><Link className="dropdown-item" href="Youtuber">Youtuber     <i class="bi bi-person-square"></i></Link></li>
           </ul>
         </li>
         <li className="nav-item">
-        <Link className="nav-link " href="Contact">ช่องทางการติดต่อ</Link>
+          <a className="nav-link" href='#Contact'>Contact      <i className="bi bi-telephone" /></a>
         </li>
       </ul>
       <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
+        <Link href={'http://localhost:3000/dashboard/'} className="btn btn-outline-success" type="submit">login</Link>
       </form>
     </div>
   </div>
 </nav>
-  </header>
+</header>
+
     </div>
 
 <main>
@@ -62,19 +60,19 @@ export default function index() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={2000}>
-      <img src="/LOL(1).jpg" className="d-block w-100" alt="LOL(1)" />
+      <img src="/LOL(1).jpg" className="d-block w-100" alt="slider(1)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item" data-bs-interval={2000}>
-      <img src="/LOL(2).jpg" className="d-block w-100" alt="LOL(2)" />
+      <img src="/LOL(2).jpg" className="d-block w-100" alt="slider(2)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
 
     <div className="carousel-item">
-      <img src="/LOL(5).jpg" className="d-block w-100" alt="LOL(5)" />
+      <img src="/LOL(5).jpg" className="d-block w-100" alt="slider(3)" />
       <div className="carousel-caption d-none d-md-block">
       </div>
     </div>
